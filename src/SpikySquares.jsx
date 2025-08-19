@@ -5,7 +5,7 @@ const W = 560, H = 560, PAD = 24
 const SIZE_MAX = 76        // kích thước ban đầu
 const SIZE_MIN = 18        // kích thước khi gần hết máu (trước khi biến mất)
 const SPEED = 200          // px/s
-const DMG_PER_SEC = 1000     // sát thương/giây khi chạm gai đúng mặt
+const DMG_PER_SEC = 1500     // sát thương/giây khi chạm gai đúng mặt
 
 // ====== helpers ===================================================
 function makeEntity({ x, y, color, spikeColor, spikes }) {

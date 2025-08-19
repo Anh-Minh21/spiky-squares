@@ -1,0 +1,19 @@
+<!-- public/fun.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9a3e"/><stop offset="1" stop-color="#ff4d4d"/>
+    </linearGradient>
+  </defs>
+  <!-- playful badge -->
+  <circle cx="32" cy="32" r="28" fill="url(#g)" />
+  <circle cx="32" cy="32" r="28" fill="none" stroke="#111" stroke-width="3"/>
+  <!-- FUN letters -->
+  <g fill="#fff" stroke="#111" stroke-width="2" font-family="Verdana,Segoe UI,Arial" font-weight="800">
+    <text x="14" y="39" font-size="20">FUN</text>
+  </g>
+  <!-- confetti -->
+  <g stroke="#fff" stroke-linecap="round" stroke-width="2">
+    <path d="M10 18l6 0" /><path d="M48 12l0 6" /><path d="M52 46l6 0" /><path d="M8 44l0 6" />
+  </g>
+</svg>
